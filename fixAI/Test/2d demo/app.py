@@ -13,7 +13,7 @@ socketio = SocketIO(app, cors_allowed_origins="*")
 players = defaultdict(dict)
 
 
-OPENAI_API_KEY = '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'
+OPENAI_API_KEY = ''
 
 @app.route('/')
 def index():
