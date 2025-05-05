@@ -12,6 +12,9 @@ socketio = SocketIO(app, cors_allowed_origins="*")
 
 players = defaultdict(dict)
 
+
+OPENAI_API_KEY = ''
+
 @app.route('/')
 def index():
     return render_template('index.html')
